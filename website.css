@@ -1,0 +1,157 @@
+
+body {
+    display:grid;
+    grid-template-rows:18% 10% auto 10%;
+    grid-row-gap:0.5%;
+    width:90%;
+    font-family: 'Georgia', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(27, 27, 27);
+    color:rgb(243, 217, 49);
+}
+
+div#woodpage {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap:0.5%;
+    grid-template-rows:auto;
+    grid-row-gap:0.5%;
+    align-self: center;
+    text-align: center;
+    padding:5%;
+}
+
+div#item1 {
+    outline: 1px solid yellow;
+}
+
+div#item2 {
+    outline: 1px solid yellow;
+}
+
+div#item3 {
+    outline: 1px solid yellow;
+}
+
+div#item4 {
+    outline: 1px solid yellow;
+}
+
+div#item5 {
+    outline: 1px solid yellow;
+}
+
+div#item6 {
+    outline: 1px solid yellow;
+}
+
+div#item7 {
+    outline: 1px solid yellow;
+}
+
+div#item8 {
+    outline: 1px solid yellow;
+}
+
+div.formRow {
+    display:flex;
+    flex-flow:row wrap;
+    margin:5px;
+}
+
+legend {
+    background-color:rgb(243, 217, 49);
+    color:rgb(27,27,27);
+    padding:3px;
+}
+
+form#survey > fieldset {
+    padding:1%;
+}
+
+textarea {
+    height:100px;
+    width:500px;
+}
+
+div#buttons {
+    text-align:center;
+    width:100%;
+}
+
+input[type='submit'], input[type='reset'] {
+    background-color:rgb(243, 217, 49);
+    font-size:1.1em;
+    padding:1%;
+    margin:2px;
+}
+
+div.gallery {
+    float:left;
+    margin:5px;
+    border: 1px solid yellow;
+    width:45%;
+}
+
+div.gallery img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+    text-align:center;
+    font-size:4em;
+    margin:0px;
+    grid-row:1;
+}
+
+p {
+    grid-row:3;
+    text-align:center;
+    font-size:1.5em;
+    outline: 1px solid yellow;
+    padding:3%;
+}
+
+nav > ul > li {
+    display:block;
+    grid-row:2;
+    font-size:1.2em;
+    float:left;
+    width:20%;
+    outline:1px solid yellow;
+}
+
+footer {
+    text-align:center;
+    grid-row:4;
+}
+
+
+a:link{
+    color:rgb(243, 217, 49);
+}
+
+a:visited{
+    color:rgb(255,255,255);
+}
+
+li a {
+    background-color:rgb(27,27,27);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:2%;
+}
+li a:hover {
+    background-color:rgb(243, 217, 49);
+    color:rgb(27, 27, 27)
+}
