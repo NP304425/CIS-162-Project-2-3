@@ -1,6 +1,6 @@
 body {
     display:grid;
-    grid-template-rows:18% 10% auto 10%;
+    grid-template-rows:100px 100px auto 10%;
     grid-row-gap:0.5%;
     width:90%;
     font-family: 'Georgia', Times, serif;
