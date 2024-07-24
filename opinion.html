@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="India, movies, Survey, Opinion">
+    <title>Indian Hollywoods</title>
+    <link href="website.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1><strong>Opinion</strong></h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href=index.html>Home</a></li>
+            <li><a href="kollywood.html">Kollywood</a></li>
+            <li><a href="tollywood.html">Tollywood</a></li>
+            <li><a href="bollywood.html">Bollywood</a></li>
+            <li><a href="westernconnections.html">Western Connections</a></li>
+            <li><a href="opinion.html">Opinion</a></li>
+        </ul>
+    </nav>
+    <p>Required fields are marked with *!</p>
+    <form id="survey">
+        <fieldset id="PersInf">
+            <legend>Personal Information</legend>
+                <div class="formRow">
+                <label>
+                    Name*
+                    <input name="PersName" id="name" type="text">
+                </label>
+                </div>
+                <div class="formRow">
+                <label>
+                    Date*
+                    <input name="PersDate" id="date" type="date">
+                </label>
+                </div>
+                <div class="formRow">
+                <label>
+                    State of Residence*
+                    <input name="PersState" id="state" type="text">
+                </label>
+                </div>
+                <div class="formRow">
+                    <label>Are you of Indian origin?*</label>
+                    <fieldset class="optGroup">
+                        <label for="iYes">Yes</label>
+                        <input name="PersIndian" id="iYes" value="yes" type="radio">
+                        <label for="iNo">No</label>
+                        <input name="PersIndian" id="iNo" value="no" type="radio">
+                    </fieldset>
+                </div>
+                <div class="formRow">
+                <label>
+                    If so, which state/territory?
+                    <input name="PersOrigin" id="origin" type="text">
+                </label>
+                </div>
+        </fieldset>
+        <fieldset id="Opinion">
+            <legend>Opinion</legend>
+                <div class="formRow">
+                    <label for="industry">Which industry did you find the most interesting?*</label>
+                    <select name="OpinIndus" id="industry">
+                        <option value="option1">Kollywood</option>
+                        <option value="option2">Tollywood</option>
+                        <option value="option3">Bollywood</option>
+                    </select>
+                </div>
+                <div class="formRow">
+                <label for="explanation">Why?</label>
+                    <textarea name="OpinPers" id="explanation"></textarea>
+                </div>
+                <div class="formRow">
+                <label for="future">Do you think this website increased your interest in Indian movies?*</label>
+                    <textarea name="OpinFutr" id="future"></textarea>
+                </div>
+        </fieldset>
+        <div id="buttons">
+            <input type="submit" value="Submit!" >
+            <input type="reset" value="Clear" >
+        </div>
+    </form>
+    <footer>Last updated on Jul. 24th
+    <a href="mailto:iexist.321@gmail.com"><br>eMail with any queries</a>
+    </footer>
+</body>
+</html>

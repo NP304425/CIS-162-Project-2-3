@@ -1,4 +1,3 @@
-
 body {
     display:grid;
     grid-template-rows:18% 10% auto 10%;
@@ -28,10 +27,12 @@ div#item1 {
 
 div#item2 {
     outline: 1px solid yellow;
+    padding:5px;
 }
 
 div#item3 {
     outline: 1px solid yellow;
+    padding:5px;
 }
 
 div#item4 {
@@ -44,10 +45,12 @@ div#item5 {
 
 div#item6 {
     outline: 1px solid yellow;
+    padding:5px;
 }
 
 div#item7 {
     outline: 1px solid yellow;
+    padding:5px;
 }
 
 div#item8 {
@@ -106,6 +109,20 @@ div.desc {
   text-align: center;
 }
 
+.accordion {
+	--bs-accordion-btn-bg: rgb(243, 217, 49);
+	--bs-accordion-active-bg: rgb(243, 217, 49);
+}
+
+.card {
+    background-color:rgb(243, 217, 49);
+    outline:1px solid white;
+}
+
+.card-text {
+    outline:1px solid white;
+}
+
 h1 {
     text-align:center;
     font-size:4em;
@@ -126,8 +143,14 @@ nav > ul > li {
     grid-row:2;
     font-size:1.2em;
     float:left;
-    width:20%;
+    width:16%;
     outline:1px solid yellow;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 footer {
